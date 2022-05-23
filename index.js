@@ -23,6 +23,7 @@ function getRandomArbitrary(min, max) {
 
 }
 bot.on('login',function(){
+	bot.chat("/register EnergySMPBot69420");
 	console.log("Logged In")
 });
 bot.on('time', function() {
